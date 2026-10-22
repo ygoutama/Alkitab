@@ -1,0 +1,115 @@
+{
+  "books": [
+    { "id": "GEN", "name": "Kejadian", "testament": "OT", "totalChapters": 50 },
+    { "id": "EXO", "name": "Keluaran", "testament": "OT", "totalChapters": 40 },
+    { "id": "LEV", "name": "Imamat", "testament": "OT", "totalChapters": 27 },
+    { "id": "NUM", "name": "Bilangan", "testament": "OT", "totalChapters": 36 },
+    { "id": "DEU", "name": "Ulangan", "testament": "OT", "totalChapters": 34 },
+    { "id": "JOSH", "name": "Yosua", "testament": "OT", "totalChapters": 24 },
+    { "id": "JUDG", "name": "Hakim-hakim", "testament": "OT", "totalChapters": 21 },
+    { "id": "RUTH", "name": "Rut", "testament": "OT", "totalChapters": 4 },
+    { "id": "1SAM", "name": "1 Samuel", "testament": "OT", "totalChapters": 31 },
+    { "id": "2SAM", "name": "2 Samuel", "testament": "OT", "totalChapters": 24 },
+    { "id": "1KINGS", "name": "1 Raja-raja", "testament": "OT", "totalChapters": 22 },
+    { "id": "2KINGS", "name": "2 Raja-raja", "testament": "OT", "totalChapters": 25 },
+    { "id": "1CHRON", "name": "1 Tawarikh", "testament": "OT", "totalChapters": 29 },
+    { "id": "2CHRON", "name": "2 Tawarikh", "testament": "OT", "totalChapters": 36 },
+    { "id": "EZRA", "name": "Ezra", "testament": "OT", "totalChapters": 10 },
+    { "id": "NEH", "name": "Nehemia", "testament": "OT", "totalChapters": 13 },
+    { "id": "EST", "name": "Ester", "testament": "OT", "totalChapters": 10 },
+    { "id": "JOB", "name": "Ayub", "testament": "OT", "totalChapters": 42 },
+    { "id": "PSALM", "name": "Mazmur", "testament": "OT", "totalChapters": 150 },
+    { "id": "PROV", "name": "Amsal", "testament": "OT", "totalChapters": 31 },
+    { "id": "ECCL", "name": "Pengkhotbah", "testament": "OT", "totalChapters": 12 },
+    { "id": "SONG", "name": "Kidung Agung", "testament": "OT", "totalChapters": 8 },
+    { "id": "ISA", "name": "Yesaya", "testament": "OT", "totalChapters": 66 },
+    { "id": "JER", "name": "Yeremia", "testament": "OT", "totalChapters": 52 },
+    { "id": "LAM", "name": "Ratapan", "testament": "OT", "totalChapters": 5 },
+    { "id": "EZEK", "name": "Yehezkiel", "testament": "OT", "totalChapters": 48 },
+    { "id": "DAN", "name": "Daniel", "testament": "OT", "totalChapters": 12 },
+    { "id": "HOS", "name": "Hosea", "testament": "OT", "totalChapters": 14 },
+    { "id": "JOEL", "name": "Yoel", "testament": "OT", "totalChapters": 3 },
+    { "id": "AMOS", "name": "Amos", "testament": "OT", "totalChapters": 9 },
+    { "id": "OBAD", "name": "Obaja", "testament": "OT", "totalChapters": 1 },
+    { "id": "JONAH", "name": "Yunus", "testament": "OT", "totalChapters": 4 },
+    { "id": "MIC", "name": "Mikha", "testament": "OT", "totalChapters": 7 },
+    { "id": "NAH", "name": "Nahum", "testament": "OT", "totalChapters": 3 },
+    { "id": "HAB", "name": "Habakuk", "testament": "OT", "totalChapters": 3 },
+    { "id": "ZEPH", "name": "Zefanya", "testament": "OT", "totalChapters": 3 },
+    { "id": "HAG", "name": "Hagai", "testament": "OT", "totalChapters": 2 },
+    { "id": "ZECH", "name": "Zakharia", "testament": "OT", "totalChapters": 14 },
+    { "id": "MAL", "name": "Maleakhi", "testament": "OT", "totalChapters": 4 },
+    { "id": "MATT", "name": "Matius", "testament": "NT", "totalChapters": 28 },
+    { "id": "MARK", "name": "Markus", "testament": "NT", "totalChapters": 16 },
+    { "id": "LUKE", "name": "Lukas", "testament": "NT", "totalChapters": 24 },
+    { "id": "JOHN", "name": "Yohanes", "testament": "NT", "totalChapters": 21 },
+    { "id": "ACTS", "name": "Kisah Para Rasul", "testament": "NT", "totalChapters": 28 },
+    { "id": "ROM", "name": "Roma", "testament": "NT", "totalChapters": 16 },
+    { "id": "1COR", "name": "1 Korintus", "testament": "NT", "totalChapters": 16 },
+    { "id": "2COR", "name": "2 Korintus", "testament": "NT", "totalChapters": 13 },
+    { "id": "GAL", "name": "Galasia", "testament": "NT", "totalChapters": 6 },
+    { "id": "EPH", "name": "Efesus", "testament": "NT", "totalChapters": 6 },
+    { "id": "PHIL", "name": "Filipi", "testament": "NT", "totalChapters": 4 },
+    { "id": "COL", "name": "Kolose", "testament": "NT", "totalChapters": 4 },
+    { "id": "1THESS", "name": "1 Tesalonika", "testament": "NT", "totalChapters": 5 },
+    { "id": "2THESS", "name": "2 Tesalonika", "testament": "NT", "totalChapters": 3 },
+    { "id": "1TIM", "name": "1 Timotius", "testament": "NT", "totalChapters": 6 },
+    { "id": "2TIM", "name": "2 Timotius", "testament": "NT", "totalChapters": 4 },
+    { "id": "TITUS", "name": "Titus", "testament": "NT", "totalChapters": 3 },
+    { "id": "PHILEM", "name": "Filemon", "testament": "NT", "totalChapters": 1 },
+    { "id": "HEB", "name": "Ibrani", "testament": "NT", "totalChapters": 13 },
+    { "id": "JAMES", "name": "Yakobus", "testament": "NT", "totalChapters": 5 },
+    { "id": "1PET", "name": "1 Petrus", "testament": "NT", "totalChapters": 5 },
+    { "id": "2PET", "name": "2 Petrus", "testament": "NT", "totalChapters": 3 },
+    { "id": "1JOHN", "name": "1 Yohanes", "testament": "NT", "totalChapters": 5 },
+    { "id": "2JOHN", "name": "2 Yohanes", "testament": "NT", "totalChapters": 1 },
+    { "id": "3JOHN", "name": "3 Yohanes", "testament": "NT", "totalChapters": 1 },
+    { "id": "JUDE", "name": "Yudas", "testament": "NT", "totalChapters": 1 },
+    { "id": "REV", "name": "Wahyu", "testament": "NT", "totalChapters": 22 }
+  ],
+  "verses": {
+    "GEN": {
+      "1": [
+        {
+          "verse": 1,
+          "id": "Pada mulanya, Allah menciptakan langit dan bumi.",
+          "en": "In the beginning God created the heavens and the earth.",
+          "orig": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ׃",
+          "trans": "Bereshit bara Elohim et hashamayim ve'et ha'aretz."
+        },
+        {
+          "verse": 2,
+          "id": "Bumi belum berbentuk dan kosong; kegelapan menutupi samudra raya, dan Roh Allah melayang-layang di atas permukaan air.",
+          "en": "Now the earth was formless and void, and darkness was over the surface of the deep. And the Spirit of God was hovering over the surface of the waters.",
+          "orig": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּיִם׃",
+          "trans": "Veha'aretz hayetah tohu vavohu vechoshech al-penei tehom veruach Elohim merachefet al-penei hamayim."
+        },
+        {
+          "verse": 3,
+          "id": "Allah berfirman, 'Jadilah terang.' Lalu terang itu jadi.",
+          "en": "And God said, 'Let there be light,' and there was light.",
+          "orig": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי־אוֹר׃",
+          "trans": "Vayomer Elohim yehi or vayehi-or."
+        }
+      ]
+    },
+    "JOHN": {
+      "1": [
+        {
+          "verse": 1,
+          "id": "Pada mulanya adalah Firman; Firman itu bersama-sama dengan Allah dan Firman itu adalah Allah.",
+          "en": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+          "orig": "Ἐν ἀρχῇ ἦν ὁ Λόγος, καὶ ὁ Λόγος ἦν πρὸς τὸν Θεόν, καὶ Θεὸς ἦν ὁ Λόγος.",
+          "trans": "En arche en ho Logos, kai ho Logos en pros ton Theon, kai Theos en ho Logos."
+        },
+        {
+          "verse": 2,
+          "id": "Ia pada mulanya bersama-sama dengan Allah.",
+          "en": "He was with God in the beginning.",
+          "orig": "οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν Θεόν.",
+          "trans": "Houtos en en arche pros ton Theon."
+        }
+      ]
+    }
+  }
+}
