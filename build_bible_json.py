@@ -15,7 +15,8 @@ Sumber (semua lo download sendiri, taruh di folder lokal):
 
 Pakai:
   python build_bible_json.py --id-json TL.json --en-json WEB.json \
-      --hebrew-dir ./wlc --greek-dir ./morphgnt-sblgnt --out alkitab.json
+      --hebrew-dir ./wlc --greek-dir ./morphgnt-sblgnt \
+      --id-label "Indonesia (TL 1912)" --en-label "English (WEB)"   # hasil: data/bible_db.json
   Tambah --split ./out_dir kalau mau dipecah per kitab (GEN.json, JOHN.json, ...).
 
 Catatan lisensi: OSHB = CC BY 4.0, MorphGNT SBLGNT = CC BY-SA 3.0 -> cantumin atribusi di aplikasi.
@@ -162,6 +163,8 @@ def main():
     ap.add_argument("--hebrew-dir", required=True)
     ap.add_argument("--greek-dir", required=True)
     ap.add_argument("--out", default="data/bible_db.json")
+    ap.add_argument("--id-label", default="Indonesia", help="label terjemahan Indonesia, mis. 'Indonesia (TL 1912)'")
+    ap.add_argument("--en-label", default="English", help="label terjemahan Inggris, mis. 'English (WEB)'")
     ap.add_argument("--split", help="folder output untuk file per kitab")
     a = ap.parse_args()
 
@@ -197,10 +200,19 @@ def main():
                 rows.append(row)
             verses_out[bid][str(ch)] = rows
 
-    result = {"books": books_out, "verses": verses_out}
+    result = {
+        "meta": {
+            "idLabel": a.id_label,
+            "enLabel": a.en_label,
+            "sources": f"Indonesia: {a.id_label}. English: {a.en_label}. Ibrani: Open Scriptures Hebrew Bible (CC BY 4.0). "
+                       "Yunani: MorphGNT SBLGNT (CC BY-SA 3.0). Transliterasi dibuat otomatis (romanisasi sederhana).",
+        },
+        "books": books_out,
+        "verses": verses_out,
+    }
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
     with open(a.out, "w", encoding="utf-8") as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
+        json.dump(result, f, ensure_ascii=False, separators=(",", ":"))
     if a.split:
         os.makedirs(a.split, exist_ok=True)
         for b in books_out:
